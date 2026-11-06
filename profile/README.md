@@ -35,25 +35,6 @@ QookiX 是一个围绕「好用的小工具」建立起来的开源组织。起�
 | :--- | :--- | :--- | :--- |
 | 不插广告、不做捆绑、不搞遥测；主打产品源码可逐行审查 | 原生技术栈，安装包尽量小、启动尽量快、内存占用尽量低 | Windows / macOS / Linux / Android，桌面端与移动端数据互通 | 以 GPL-3.0 为主，翻译平台为 MIT，具体以各仓库 LICENSE 为准 |
 
-## 组织数据
-
-> 常见统计卡片服务只支持个人账号，组织主页用不了。下面这组数字由本仓库的 [同步任务](https://github.com/QookiX/.github/actions/workflows/update-stats.yml) 每天通过 GitHub API 拉取并写回，不需要手工维护。
-
-<!-- QK:STATS:START -->
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Stars-1%2C240-E9A44C?style=flat-square" alt="Stars: 1,240" />
-  <img src="https://img.shields.io/badge/Repos-11-2F81F7?style=flat-square" alt="Repos: 11" />
-  <img src="https://img.shields.io/badge/Commits-3%2C480-A45A2A?style=flat-square" alt="Commits: 3,480" />
-  <img src="https://img.shields.io/badge/Forks-186-5D8A66?style=flat-square" alt="Forks: 186" />
-</p>
-
-<p align="center"><sub>近 12 周提交活跃度</sub> &nbsp; <code>▂▃▄▆▄▂█▆▃▅▇▄</code></p>
-
-<p align="center"><sub>版式示例数据 · 推送后由 GitHub Actions 自动同步为真实数据</sub></p>
-
-<!-- QK:STATS:END -->
-
 ## 项目矩阵
 
 ### 主打产品
@@ -76,49 +57,9 @@ QookiX 是一个围绕「好用的小工具」建立起来的开源组织。起�
 | [QookiX-Video](https://github.com/QookiX/QookiX-Video) | 启动器宣传视频的源码 | HTML |
 | [.github](https://github.com/QookiX/.github) | 组织简介与公共配置（也就是这里） | Markdown |
 
-## 技术栈与平台
+## 我们在用什么
 
 **Tauri 2 + Rust** 是主力底座，界面交给 **Vue 3 / React 19 + TypeScript**；安卓端用 Kotlin，Windows 原生端用 C# + WinUI 3，服务端用 Go。官网（Nuxt）与文档站（VitePress）分开部署在 Vercel。
-
-### 语言构成
-
-<!-- QK:LANG:START -->
-
-```mermaid
-pie showData
-    title QookiX 语言构成
-    "Rust" : 38
-    "TypeScript" : 27
-    "Vue" : 12
-    "Kotlin" : 9
-    "C#" : 8
-    "Go" : 6
-```
-
-| 语言 | 占比 |
-| :--- | ---: |
-| Rust | 38% |
-| TypeScript | 27% |
-| Vue | 12% |
-| Kotlin | 9% |
-| C# | 8% |
-| Go | 6% |
-
-<p align="center"><sub>按各仓库 languages 接口字节数聚合 · 每日自动同步</sub></p>
-
-<!-- QK:LANG:END -->
-
-### 平台覆盖
-
-| 项目 | Windows | macOS | Linux | Android |
-| :--- | :---: | :---: | :---: | :---: |
-| QookiX-Launcher | ● | ● | ● | ○ |
-| QookiX-Launcher-Android | ○ | ○ | ○ | ● |
-| QookiT | ● | ● | ● | ○ |
-| QookiV | ● | ● | ● | ○ |
-| QookiL | ● | ○ | ○ | ○ |
-
-● 已支持 · ○ 暂未覆盖。平台支持属于产品事实，变更时手动更新此表；其余数据每天自动同步。
 
 ## 参与进来
 
