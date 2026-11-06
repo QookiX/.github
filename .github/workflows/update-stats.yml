@@ -1,0 +1,45 @@
+name: Sync org stats
+
+on:
+  schedule:
+    - cron: '17 0 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/update_stats.py'
+      - '.github/workflows/update-stats.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-org-stats
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Sync organization stats into profile README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          QK_ORG: QookiX
+        run: python scripts/update_stats.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- profile/README.md; then
+            echo "No stat changes."
+            exit 0
+          fi
+          git add profile/README.md
+          git commit -m "chore: sync organization stats [skip ci]"
+          git push
