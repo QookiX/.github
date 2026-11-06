@@ -42,15 +42,15 @@ QookiX 是一个围绕「好用的小工具」建立起来的开源组织。起�
 <!-- QK:STATS:START -->
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Stars-1%2C240-E9A44C?style=flat-square" alt="Stars: 1,240" />
-  <img src="https://img.shields.io/badge/Repos-11-2F81F7?style=flat-square" alt="Repos: 11" />
-  <img src="https://img.shields.io/badge/Commits-3%2C480-A45A2A?style=flat-square" alt="Commits: 3,480" />
-  <img src="https://img.shields.io/badge/Forks-186-5D8A66?style=flat-square" alt="Forks: 186" />
+  <img src="https://img.shields.io/badge/Stars-36-E9A44C?style=flat-square" alt="Stars: 36" />
+  <img src="https://img.shields.io/badge/Repos-10-2F81F7?style=flat-square" alt="Repos: 10" />
+  <img src="https://img.shields.io/badge/Commits-744-A45A2A?style=flat-square" alt="Commits: 744" />
+  <img src="https://img.shields.io/badge/Forks-4-5D8A66?style=flat-square" alt="Forks: 4" />
 </p>
 
-<p align="center"><sub>近 12 周提交活跃度</sub> &nbsp; <code>▂▃▄▆▄▂█▆▃▅▇▄</code></p>
+<p align="center"><sub>近 12 周提交活跃度</sub> &nbsp; <code>▁▁▂▂▁▁▁▁▁▂█▅</code></p>
 
-<p align="center"><sub>版式示例数据 · 推送后由 GitHub Actions 自动同步为真实数据</sub></p>
+<p align="center"><sub>数据由 GitHub Actions 每日自动同步 · 无需手工维护</sub></p>
 
 <!-- QK:STATS:END -->
 
@@ -87,22 +87,24 @@ QookiX 是一个围绕「好用的小工具」建立起来的开源组织。起�
 ```mermaid
 pie showData
     title QookiX 语言构成
-    "Rust" : 38
-    "TypeScript" : 27
-    "Vue" : 12
-    "Kotlin" : 9
-    "C#" : 8
-    "Go" : 6
+    "Rust" : 29
+    "Kotlin" : 18
+    "TypeScript" : 17
+    "Vue" : 11
+    "C" : 10
+    "Java" : 7
+    "其它" : 8
 ```
 
 | 语言 | 占比 |
 | :--- | ---: |
-| Rust | 38% |
-| TypeScript | 27% |
-| Vue | 12% |
-| Kotlin | 9% |
-| C# | 8% |
-| Go | 6% |
+| Rust | 29% |
+| Kotlin | 18% |
+| TypeScript | 17% |
+| Vue | 11% |
+| C | 10% |
+| Java | 7% |
+| 其它 | 8% |
 
 <p align="center"><sub>按各仓库 languages 接口字节数聚合 · 每日自动同步</sub></p>
 
