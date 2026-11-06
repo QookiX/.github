@@ -76,10 +76,6 @@ QookiX 是一个围绕「好用的小工具」建立起来的开源组织。起�
 
 <br />
 
-<h>QookiX</h>
-
-<br />
-
 <a href="https://www.qookix.cn">官网首页</a> · <a href="https://docs.qookix.cn">文档中心</a> · <a href="https://github.com/orgs/QookiX/repositories">全部仓库</a> · <a href="mailto:help@qookix.cn">联系我们</a>
 
 </div>
