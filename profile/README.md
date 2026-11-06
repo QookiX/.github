@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://github.com/QookiX.png?size=160" width="112" height="112" alt="QookiX 像素曲奇标志" />
+<img src="https://github.com/QookiX.png?size=160" width="112" height="112" alt="QookiX" />
 
 <h1>QookiX</h1>
 
@@ -11,14 +11,12 @@
 <p>
   <a href="https://www.qookix.cn"><img src="https://img.shields.io/badge/Website-www.qookix.cn-E9A44C?style=flat-square" alt="官网" /></a>
   <a href="https://docs.qookix.cn"><img src="https://img.shields.io/badge/Docs-docs.qookix.cn-2F81F7?style=flat-square" alt="文档" /></a>
-  <a href="https://github.com/QookiX/QookiW-WhatsNew"><img src="https://img.shields.io/badge/Changelog-WhatsNew-3FB950?style=flat-square" alt="出炉日志" /></a>
   <a href="mailto:help@qookix.cn"><img src="https://img.shields.io/badge/Contact-help%40qookix.cn-A45A2A?style=flat-square" alt="联系" /></a>
-  <a href="https://github.com/QookiX/QookiX-Launcher/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-GPL--3.0-6E7681?style=flat-square" alt="开源协议" /></a>
 </p>
 
 <p>
-  <a href="https://www.qookix.cn">下载启动器</a> ·
-  <a href="https://docs.qookix.cn">使用文档</a> ·
+  <a href="https://www.qookix.cn">官网首页</a> ·
+  <a href="https://docs.qookix.cn">文档中心</a> ·
   <a href="https://github.com/orgs/QookiX/repositories">全部仓库</a> ·
   <a href="mailto:help@qookix.cn">联系我们</a>
 </p>
@@ -31,7 +29,7 @@
 
 QookiX 是一个围绕「好用的小工具」建立起来的开源组织。起点是 **[QookiX Launcher](https://github.com/QookiX/QookiX-Launcher)** —— 一个安装包仅 7 MB、不含广告与遥测、覆盖 Windows / macOS / Linux / Android 的 Minecraft 启动器。顺着同一套做法，我们把触角伸到了更多日常场景：SSH 客户端、软件宣传片编辑器、局域网快传，以及支撑它们的文档站、翻译服务和更新聚合站。
 
-所有代码都公开在 GitHub，主流项目由 GitHub Actions 自动构建多平台安装包，Issues 与 Pull Request 一律开放。**能自己编译，才敢放心用** —— 这是我们做东西的底线。
+所有代码都公开在 GitHub，主流项目由 GitHub Actions 自动构建多平台安装包，Issues 与 Pull Request 一律开放。
 
 | 纯净 | 轻量 | 跨平台 | 开源 |
 | :--- | :--- | :--- | :--- |
@@ -61,14 +59,13 @@ QookiX 是一个围绕「好用的小工具」建立起来的开源组织。起�
 
 ## 我们在用什么
 
-**Tauri 2 + Rust** 是主力底座，界面交给 **Vue 3 / React 19 + TypeScript**；安卓端用 Kotlin，Windows 原生端用 C# + WinUI 3，服务端用 Go。官网（Nuxt）与文档站（VitePress）分开部署在 Vercel，打 `v*` 标签即由 GitHub Actions 构建并发布多平台产物。
+**Tauri 2 + Rust** 是主力底座，界面交给 **Vue 3 / React 19 + TypeScript**；安卓端用 Kotlin，Windows 原生端用 C# + WinUI 3，服务端用 Go。官网（Nuxt）与文档站（VitePress）分开部署在 Vercel。
 
 ## 参与进来
 
 - **反馈问题**：软件 Bug / 功能建议 → 对应仓库的 [Issues](https://github.com/orgs/QookiX/repositories)；文档错漏、官网显示问题 → [QookiX-Docs](https://github.com/QookiX/QookiX-Docs/issues)。
-- **改文档最省事**：打开任意文档页，点底部「在 GitHub 上编辑此页」，网页里直接提交 PR，不用装环境。
+- **改文档**：打开任意文档页，点底部「在 GitHub 上编辑此页」，网页里直接提交 PR，不用装环境。
 - **提代码**：先读目标仓库的 `CONTRIBUTING.md`，提交前跑一遍本地构建／类型检查。
-- **追进度**：[QookiW-WhatsNew](https://github.com/QookiX/QookiW-WhatsNew)「出炉日志」汇总了所有仓库的 CHANGELOG 与提交记录，一页看完（另有[在线站点](https://qooki-w-whats-new.vercel.app)）。
 - **其它合作与建议**：<help@qookix.cn>。
 
 ---
@@ -79,6 +76,10 @@ QookiX 是一个围绕「好用的小工具」建立起来的开源组织。起�
 
 <br />
 
-中国 · <a href="https://www.qookix.cn">www.qookix.cn</a> · <a href="https://docs.qookix.cn">docs.qookix.cn</a> · <a href="mailto:help@qookix.cn">help@qookix.cn</a>
+<h>QookiX</h>
+
+<br />
+
+<a href="https://www.qookix.cn">官网首页</a> · <a href="https://docs.qookix.cn">文档中心</a> · <a href="https://github.com/orgs/QookiX/repositories">全部仓库</a> · <a href="mailto:help@qookix.cn">联系我们</a>
 
 </div>
